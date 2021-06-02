@@ -1,0 +1,22 @@
+{
+  "name": "t1",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:dev": "postcss tailwind.css --verbose --config debug --output style.css -w",
+    "css:build": "postcss tailwind.css --config build --output style.css",
+    "dev": "npm run css:dev",
+    "build": "npm run css:build"
+  },
+  "author": "Abdel Raoof Olakara",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.5",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.3"
+  }
+}
